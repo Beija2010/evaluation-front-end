@@ -1,0 +1,41 @@
+body {
+    padding: 0;
+    margin: 0;
+    ;
+}
+
+.lien {
+    text-decoration: none;
+    display:flex;
+    justify-content: flex-end;
+
+}
+
+.lien-2 {
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    padding: 10px;
+    background-color: black;
+    display: block;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(79, 68, 68);
+}
+
+.icône {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    color: aliceblue;
+}
