@@ -1,12 +1,19 @@
 body {
     padding: 0;
     margin: 0;
-    ;
+    background: url("../img/background.jpg") scroll repeat 50%;
+    font-family: "Liberation", Garamond, Verdana, Serif;
+}
+
+h3 {
+    position: absolute;
+    top: 25px;
+    right: 260px;
 }
 
 .lien {
     text-decoration: none;
-    display:flex;
+    display: flex;
     justify-content: flex-end;
 
 }
@@ -36,6 +43,9 @@ body {
     justify-content: center;
 }
 
-p {
-    color: aliceblue;
+.trait {
+    border-bottom: 2px solid silver;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
